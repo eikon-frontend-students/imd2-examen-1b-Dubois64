@@ -83,6 +83,9 @@ video {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  margin-left: 200px;
+  margin-right: 250px;
+  padding-left: 10%;
 }
 
 .calltoaction {
@@ -92,6 +95,7 @@ video {
   color: #fdf0d5;
   font-family: "Playfair Display";
   text-transform: uppercase;
+  margin: auto;
 }
 
 /* 03. Centrer verticalement */
@@ -134,4 +138,74 @@ h3 {
 
 .highlight.colored {
   background-color: #fdf0d5;
+}
+
+.link-container {
+  text-align: center;
+}
+
+.calltoaction {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 20px;
+}
+
+.Alex {
+  border-radius: 10px 10px 0 0px;
+  width: 251.004px;
+  height: 250px;
+}
+
+.info-card {
+  display: flex;
+  height: 50px;
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-profile {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-alex-pp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.letter {
+  display: flex;
+}
+
+.card-orange {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.card-background {
+  display: flex;
+  width: 634px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background: #f7fafd;
+}
+
+.card-orange p {
+  font-weight: 600;
 }
