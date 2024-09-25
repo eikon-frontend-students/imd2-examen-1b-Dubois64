@@ -114,3 +114,24 @@ video {
 }
 
 /* 04. Intégration */
+
+h2,
+h3 {
+  font-family: playfair display;
+}
+
+.section-sport h3 {
+  color: #c1121f;
+}
+
+.section-culture h3 {
+  color: #669bbc;
+}
+
+.section-regions .highlight {
+  font-weight: bold;
+}
+
+.highlight.colored {
+  background-color: #fdf0d5;
+}
