@@ -57,10 +57,12 @@ video {
   width: 50%;
   padding: 20px;
   border: 1px solid #000;
+  gap: 10px;
 }
 
 .exercise-content:last-child {
   padding: 0;
+  gap: 10px;
 }
 
 .exercise-instructions {
@@ -83,9 +85,7 @@ video {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
-  margin-left: 200px;
-  margin-right: 250px;
-  padding-left: 10%;
+  display: inline;
 }
 
 .calltoaction {
